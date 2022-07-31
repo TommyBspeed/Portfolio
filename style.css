@@ -70,6 +70,11 @@ section {
   border: 5px solid black;
   border-radius: 10px;
 }
+aside {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+}
 
 img {
   width: 33.33%;
@@ -104,20 +109,33 @@ p {
 .about-me {
   display: flex;
 }
+.mywork p {
+  border-bottom: 1px solid black;
+}
 .contact-form {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: flex-start;
+}
+
+.mylinks {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
   align-items: center;
+}
+.mylinks .links {
+  display: none;
+}
+
+.mylinks:hover .links {
+  display: block;
 }
 
 .tommypic {
   border-radius: 10px;
   box-shadow: 10px 5px 5px gray;
-}
-
-#contact-form {
-  margin-top: 3%;
 }
 
 @media screen and (max-width: 768px) {
