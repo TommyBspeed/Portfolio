@@ -27,6 +27,7 @@ header {
   color: #aff3c6;
   position: fixed;
   min-width: 100vw;
+  margin-bottom: 3%;
 }
 
 nav {
@@ -108,10 +109,13 @@ p {
 }
 .about-me {
   display: flex;
+  margin-top: 5%;
 }
-.mywork p {
-  border-bottom: 1px solid black;
+.mywork {
+  display: flex;
+  margin-bottom: 2%;
 }
+
 .contact-form {
   display: flex;
   justify-content: center;
