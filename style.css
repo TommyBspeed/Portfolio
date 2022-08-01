@@ -117,11 +117,13 @@ p {
   margin-bottom: 0;
   justify-content: center;
   border-bottom: none;
+  border-radius: 10px 10px 0 0;
 }
 
 .apps {
   display: flex;
   border-top: none;
+  border-radius: 0 0 10px 10px;
   margin-top: 0;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +134,6 @@ p {
 
 .otherapps {
   flex-wrap: wrap;
-  /* display: block; */
 }
 
 .contact-form {
@@ -140,7 +141,7 @@ p {
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 3%;
+  /* margin-top: 3%; */
 }
 
 .mylinks {
