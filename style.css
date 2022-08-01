@@ -113,11 +113,11 @@ p {
   padding: 1%;
 }
 
-.about-me {
+#about-me {
   display: flex;
   margin-top: 5%;
 }
-.mywork {
+#mywork {
   display: flex;
   margin-bottom: 0;
   justify-content: center;
@@ -157,7 +157,7 @@ p {
   flex-wrap: wrap;
 }
 
-.contact-form {
+#contact-form {
   display: flex;
   justify-content: center;
   flex-direction: column;
