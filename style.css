@@ -186,6 +186,7 @@ p {
   display: none;
   text-decoration: none;
   color: #000000;
+  position: absolute;
 }
 
 .mylinks:hover .links {
