@@ -150,13 +150,16 @@ p {
 }
 .topapp img {
   min-width: 50vw;
-  margin-top: 3%;
+  margin-top: 0;
 }
 
 .topapp-txt {
   position: absolute;
+  padding: 8px;
   background: #000000;
   color: #aff3c6;
+  border-radius: 10px 0 0 0;
+  margin: 2px 2px;
 }
 
 .otherapps {
@@ -167,6 +170,9 @@ p {
   position: absolute;
   background: #000000;
   color: #aff3c6;
+  padding: 5px;
+  border-radius: 10px 0 0 0;
+  margin: 2px 2px;
 }
 
 #contact-form {
@@ -186,7 +192,7 @@ p {
   display: none;
   text-decoration: none;
   color: #000000;
-  position: absolute;
+  position: relative;
 }
 
 .mylinks:hover .links {
