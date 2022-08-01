@@ -153,8 +153,20 @@ p {
   margin-top: 3%;
 }
 
+.topapp-txt {
+  position: absolute;
+  background: #000000;
+  color: #aff3c6;
+}
+
 .otherapps {
   flex-wrap: wrap;
+}
+
+.otherapps-txt {
+  position: absolute;
+  background: #000000;
+  color: #aff3c6;
 }
 
 #contact-form {
